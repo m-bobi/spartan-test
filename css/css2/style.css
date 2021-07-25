@@ -1,0 +1,144 @@
+/*
+#h1Main {
+    color: red;
+    font: normal 50px Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    text-align: center;
+    border-radius: 60px;
+}
+
+#background {
+    background-color: darkgrey;
+}
+
+#paragraph {
+    color: red;
+    font: normal 20px Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+*/
+body{
+background-image: url('../images/pic.jpg');
+background-position: center center;
+background-repeat:space;
+}
+
+a{
+    text-decoration: none;
+    font-family: tahoma;
+    font-weight: 900;
+    color:sienna;
+}
+
+a:hover{
+    color:blue;
+    font-size: 20px;
+}
+
+a:active{
+    color:yellow;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.button{
+    background-color: darkslategray;
+    padding: 9px 14px;
+    color:#fff;
+    border: none;
+    border-radius: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: red;
+    color: white;
+    cursor:pointer;
+}
+
+.box-1 {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border: 4.1px blue solid;
+}
+
+.box-1 h1 {
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: oblique;
+    text-decoration: wavy;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+}
+
+.box-2{
+    border:3px dotted tomato;
+    margin: 20px 0;
+    padding: 20px
+}
+
+.categories{
+    border: 3px salmon solid;
+    padding: 10px;
+    border-radius: 60px;
+}
+
+.categories h2{
+    text-align: center;
+    color:sandybrown;
+}
+
+.categories ul{
+    list-style:none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 3px gray;
+    list-style-image: url("../images/favicon-16x16.png");
+}
+
+
+.myForm{
+    padding: 20px;
+}
+
+.myForm .formGroup{
+    padding-bottom: 10px;
+}
+
+.myForm label{
+    display:block;
+    font-weight: 800;
+    font-family: Tahoma, sans-serif;
+    color:#333;
+    border-radius: unset;
+}
+
+
+.myForm input[type="text"], .myForm textarea{
+    padding: 10px;
+    font-family:tahoma, sans-serif;
+    width: 70%;
+    border-radius: 50px;
+    text-align: center;
+    outline: unset;
+}
+
+.myForm input:focus{
+    outline: unset;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    padding: 10px;
+    border:2px solid #333;
+    box-sizing: border-box;
+}
